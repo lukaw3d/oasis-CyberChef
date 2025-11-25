@@ -31,6 +31,8 @@ function main() {
         "To oasis1 address",
         "To rofl1 address",
         "From EVM hex address to oasis1 address",
+        "JSON.parse",
+        "To Uint8Array",
         "To Base64",
         "From Base64",
         "To Hex",
