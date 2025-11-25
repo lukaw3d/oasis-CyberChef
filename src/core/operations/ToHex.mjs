@@ -50,7 +50,7 @@ class ToHex extends Operation {
             delim = "0x";
             comma = ",";
         } else {
-            delim = Utils.charRep(args[0] || "Space");
+            delim = Utils.charRep(args[0] || "None");
         }
         const lineSize = args[1];
 
@@ -72,7 +72,7 @@ class ToHex extends Operation {
             delim = "0x";
             commaLen = 1;
         } else {
-            delim = Utils.charRep(args[0] || "Space");
+            delim = Utils.charRep(args[0] || "None");
         }
 
         const lineSize = args[1],
@@ -110,7 +110,7 @@ class ToHex extends Operation {
             delim = "0x";
             commaLen = 1;
         } else {
-            delim = Utils.charRep(args[0] || "Space");
+            delim = Utils.charRep(args[0] || "None");
         }
 
         const lineSize = args[1],

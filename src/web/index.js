@@ -28,6 +28,9 @@ import * as oasisRT from "@oasisprotocol/client-rt";
  */
 function main() {
     const defaultFavourites = [
+        "To oasis1 address",
+        "To rofl1 address",
+        "From EVM hex address to oasis1 address",
         "To Base64",
         "From Base64",
         "To Hex",
@@ -38,7 +41,9 @@ function main() {
         "Regular expression",
         "Entropy",
         "Fork",
-        "Magic"
+        "Magic",
+        "CBOR Decode",
+        "CBOR Encode",
     ];
 
     const defaultOptions = {
@@ -48,7 +53,7 @@ function main() {
         showErrors:          true,
         errorTimeout:        4000,
         attemptHighlight:    true,
-        theme:               "classic",
+        theme:               "dark",
         useMetaKey:          false,
         logLevel:            "info",
         autoMagic:           true,
