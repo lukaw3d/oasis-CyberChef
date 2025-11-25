@@ -20,6 +20,8 @@ import App from "./App.mjs";
 import Categories from "../core/config/Categories.json" with {type: "json"};
 import OperationConfig from "../core/config/OperationConfig.json" with {type: "json"};
 
+import * as oasis from "@oasisprotocol/client";
+import * as oasisRT from "@oasisprotocol/client-rt";
 
 /**
  * Main function used to build the CyberChef web app.
@@ -65,6 +67,9 @@ window.compileMessage = COMPILE_MSG;
 
 // Make libs available to operation outputs
 window.CanvasComponents = CanvasComponents;
+
+window.oasis = oasis;
+window.oasisRT = oasisRT;
 
 document.addEventListener("DOMContentLoaded", main, false);
 

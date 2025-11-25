@@ -4,6 +4,14 @@
         "ops": []
     },
     {
+        "name": "Oasis",
+        "ops": [
+            "To oasis1 address",
+            "To rofl1 address",
+            "From EVM hex address to oasis1 address"
+        ]
+    },
+    {
         "name": "Data format",
         "ops": [
             "To Hexdump",
