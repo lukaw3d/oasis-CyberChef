@@ -29,7 +29,9 @@ import * as oasisRT from "@oasisprotocol/client-rt";
 function main() {
     const defaultFavourites = [
         "To oasis1 address",
+        "From oasis1 address",
         "To rofl1 address",
+        "From rofl1 address",
         "From EVM hex address to oasis1 address",
         "JSON.parse",
         "To Uint8Array",
